@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import VideoPlayer from "../components/VideoPlayer";
 import "./VideoDetail.css";
 
-const API_KEY = "AIzaSyDFoRNjz-ABYqedQt7h0P5bfGBBgEmi61s"; // Replace with your actual API key
+const API_KEY = "AIzaSyDFoRNjz-ABYqedQt7h0P5bfGBBgEmi61s";
 
 const VideoDetail = () => {
   const [video, setVideo] = useState(null);
