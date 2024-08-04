@@ -1,0 +1,28 @@
+.videoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 320px;
+  margin: 10px; /* Add margin for spacing */
+}
+
+.videoItem img {
+  width: 100%;
+  height: auto;
+}
+
+.videoItem_info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.videoItem_info h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px; /* Add margin for spacing */
+}
+
+.videoItem_info p {
+  font-size: 14px;
+  color: #606060;
+}

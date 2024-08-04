@@ -1,0 +1,9 @@
+.videoCard {
+  max-width: 345px;
+  margin: 10px; /* Add margin for spacing */
+}
+
+.videoCard_media {
+  height: 140px;
+  object-fit: cover; /* Ensure image covers the entire area */
+}
