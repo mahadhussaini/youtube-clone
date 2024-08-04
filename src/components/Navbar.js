@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router";
 import {
   AppBar,
   Toolbar,
@@ -18,10 +19,22 @@ const Navbar = () => {
     setSearchTerm(searchQuery);
   };
 
+  const navigate = useNavigate();
+
+  const handleLogoClick = () => {
+    navigate("/");
+  };
+
   return (
     <AppBar position="static" color="default" elevation={0}>
       <Toolbar className="navbar">
-        <IconButton size="large" color="inherit" edge="start" aria-label="menu">
+        <IconButton
+          size="large"
+          color="inherit"
+          edge="start"
+          aria-label="menu"
+          onClick={handleLogoClick}
+        >
           <YouTubeIcon sx={{ color: "red" }} />
         </IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
