@@ -6,9 +6,15 @@
 
 .videoPlayer_frame {
   width: 100%;
-  height: 500px;
+  aspect-ratio: 16 / 9; /* Adjust aspect ratio as needed */
 }
 
 .videoPlayer .MuiTypography-root {
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .videoPlayer {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
 }

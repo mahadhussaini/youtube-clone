@@ -6,10 +6,16 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh; /* Use min-height for better compatibility */
 }
 
 .app_body {
   display: flex;
-  flex: 1; /* Allow the content area to grow */
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .app_body {
+    flex-direction: row;
+  }
 }

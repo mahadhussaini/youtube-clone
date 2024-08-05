@@ -6,6 +6,7 @@ import {
   Typography,
   InputBase,
   IconButton,
+  Box,
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -36,10 +37,11 @@ const Navbar = () => {
           onClick={handleLogoClick}
         >
           <YouTubeIcon sx={{ color: "red" }} />
+          <Box sx={{ flexGrow: 0, marginRight: 1 }} />
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            YouTube
+          </Typography>
         </IconButton>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          YouTube
-        </Typography>
         <div className="search">
           <div className="searchIcon">
             <SearchIcon />

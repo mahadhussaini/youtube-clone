@@ -6,6 +6,7 @@
 .sidebar .MuiDrawer-paper {
   width: 240px;
   box-sizing: border-box;
+  position: inherit;
 }
 
 .sidebar .MuiListItem-root {

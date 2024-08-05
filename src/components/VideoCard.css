@@ -1,9 +1,18 @@
 .videoCard {
-  max-width: 345px;
-  margin: 10px; /* Add margin for spacing */
+  max-width: 100%; /* Adjust to full width on smaller screens */
+  margin: 10px; /* Maintain margin for spacing */
 }
 
 .videoCard_media {
   height: 140px;
   object-fit: cover; /* Ensure image covers the entire area */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust video card width and margin for smaller screens */
+  .videoCard {
+    max-width: 100%;
+    margin: 5px; /* Reduce margin for smaller screens */
+  }
 }

@@ -4,3 +4,9 @@
   align-items: center;
   margin-top: 20px;
 }
+
+@media (min-width: 768px) {
+  .searchResults {
+    justify-content: space-between; /* Adjust horizontal alignment for larger screens */
+  }
+}

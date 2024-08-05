@@ -1,18 +1,23 @@
 .app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .app_body {
   display: flex;
   flex: 1;
+  /* Add additional styles as needed */
 }
 
-.app_body .MuiDrawer-paper {
+.myDrawerPaper {
+  /* Use a custom class for better control */
   position: relative;
+  /* Add drawer styles */
 }
 
-.MuiGrid-root {
+.myGridContainer {
+  /* Use a custom class for grid container */
   padding: 20px;
+  /* Add grid container styles */
 }
