@@ -7,6 +7,6 @@
 
 @media (max-width: 768px) {
   .videoList {
-    gap: 10px; /* Reduce gap on smaller screens */
+    gap: 10px;
   }
 }

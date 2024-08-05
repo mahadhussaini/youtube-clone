@@ -22,7 +22,7 @@
 
 .inputRoot {
   color: inherit;
-  flex: 1; /* Allow the input to expand to fill available space */
+  flex: 1;
 }
 
 .inputInput {

@@ -7,17 +7,12 @@
 .app_body {
   display: flex;
   flex: 1;
-  /* Add additional styles as needed */
 }
 
 .myDrawerPaper {
-  /* Use a custom class for better control */
   position: relative;
-  /* Add drawer styles */
 }
 
 .myGridContainer {
-  /* Use a custom class for grid container */
   padding: 20px;
-  /* Add grid container styles */
 }

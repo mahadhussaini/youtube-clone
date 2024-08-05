@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100%; /* Adjust to full width on smaller screens */
-  margin: 10px; /* Add margin for spacing */
+  max-width: 320px;
+  margin: 10px;
 }
 
 .videoItem img {
@@ -19,23 +19,10 @@
 .videoItem_info h4 {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 5px; /* Add margin for spacing */
+  margin-bottom: 5px;
 }
 
 .videoItem_info p {
   font-size: 14px;
   color: #606060;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  /* Adjust video item and image sizes for smaller screens */
-  .videoItem {
-    max-width: 100%;
-    margin: 5px; /* Reduce margin for smaller screens */
-  }
-
-  .videoItem img {
-    height: auto; /* Adjust image height based on container */
-  }
 }

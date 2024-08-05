@@ -6,6 +6,6 @@
 
 @media (max-width: 768px) {
   .videoDetail {
-    padding: 10px; /* Reduce padding on smaller screens */
+    padding: 10px;
   }
 }
